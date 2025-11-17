@@ -117,22 +117,22 @@ A saída CSV está pronta para análise em planilhas ou gráficos.
 Exemplo de Saída
 Entrada:
 
-Digite seu RGM: 271935
+Digite seu RGM: 46020993
 Saída resumida:
 
 
-RGM ordenado: 123579
+RGM ordenado: 00234699
 
 Resumo humano:
-Comparações: 15
-Trocas: 3
-Passos totais: 18
-Tempo: 0.0123 ms
+Comparações: 28
+Trocas: 6
+Passos totais: 34
+Tempo: 0.0020 ms
 CSV para relatório:
 
 mathematica
 metodo,N,caso,comparacoes,trocas,passos,tempo_ms
-selection,6,rgm,15,3,18,0.0123
+selection,8,rgm,28,6,34,0,0020
 
 ### FUNCIONALIDADE DO CÓDIGO
 Contagem detalhada de comparações e trocas usando a estrutura Metrics.
