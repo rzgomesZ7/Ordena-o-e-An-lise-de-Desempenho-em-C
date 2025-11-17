@@ -77,6 +77,7 @@ Passos totais = comparações + trocas.
 Ordena corretamente o RGM e outros vetores testados.
 Lida com empates e elementos repetidos.
 Funciona para vetores de diferentes tamanhos.
+
 \\2. Escalabilidade
 Comparações e trocas crescem quadraticamente com o tamanho do vetor (
 𝑂
@@ -88,10 +89,12 @@ O(n
 2
 )).
 Observações práticas confirmam o comportamento esperado para N pequenos; torna-se ineficiente para N grandes.
+
 \\3. Estabilidade e Memória
 Não é estável.
 Uso de memória é in-place, sem vetores auxiliares.
-\\4. Sensibilidade ao Caso
+
+\\\4. Sensibilidade ao Caso
 Aleatório: número médio de comparações ≈ 𝑛2/2.
 Quase ordenado: pouco ganho, ainda O(n²).
 Reverso: máximo de trocas, pior caso.
