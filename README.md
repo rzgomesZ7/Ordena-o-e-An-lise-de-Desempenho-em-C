@@ -118,6 +118,7 @@ Exemplo de Saída
 Entrada:
 
 Digite seu RGM: 46020993
+
 Saída resumida:
 
 
