@@ -94,7 +94,7 @@ Observações práticas confirmam o comportamento esperado para N pequenos; torn
 Não é estável.
 Uso de memória é in-place, sem vetores auxiliares.
 
-\\\4. Sensibilidade ao Caso
+\\4. Sensibilidade ao Caso
 Aleatório: número médio de comparações ≈ 𝑛2/2.
 Quase ordenado: pouco ganho, ainda O(n²).
 Reverso: máximo de trocas, pior caso.
